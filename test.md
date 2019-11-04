@@ -92,9 +92,9 @@ When you develop and deploy applications for Google App Engine, like Snapchat or
 	    --split-by [IP_OR_COOKIE]
 	```
 	```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+	require 'redcarpet'
+	markdown = Redcarpet.new("Hello World!")
+	puts markdown.to_html
 	```
 
 
